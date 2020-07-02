@@ -1,0 +1,41 @@
+ @font-face {
+      font-family: 'Playfair Display Italic';
+      src: url('../fonts/PlayfairDisplay-Italic.ttf');
+}
+
+ @font-face {
+	font-family: 'Playfair Display';
+	src: url('../fonts/PlayfairDisplay-Regular.ttf');
+}
+
+body {
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+
+.about-container {
+	width: 100vw;
+	height: 91vh;
+	background-image: url('../images/our-story.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header-line {
+	font-family: 'Playfair Display', serif;
+	font-size: 4em;
+	color: white;
+	text-align: center;
+	padding-top: 10vh;
+	color: white;
+	font-weight: bolder;
+	letter-spacing: 2px;
+}
+
+.header-2 {
+	font-family: 'Playfair Display Italic', serif;
+	font-family: 5em;
+	color: white;
+}
