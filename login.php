@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf8">
@@ -166,7 +166,7 @@
 					<input type="submit" name="submit" class="submit" value="Submit 🍔">
 				</form>
 				<?php
-					if (isset($_POST['email']) && isset($_POST['password'])) {
+					if (isset($_POST['email'], $_POST['password'])) {
 						try 
 						{
 							if (!file_exists('./backend/database/database.php'))
