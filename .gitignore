@@ -1,5 +1,5 @@
 
-/.phpintel
-/.idea
-/vendor
+.phpintel/
+.idea/
+vendor/
 /vendor/*
