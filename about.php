@@ -195,12 +195,7 @@
 				</div>
 			</div>
 			<div class="other-text">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	
+			Here at Forks &amp; Spoons we work with only the best food supliers like small family farms, insuring that we always have the best and always fresh ingredients. You’ll find a large variety of dishes made to satisfy any taste, from sea food, steaks, variety of natural soups, pasta, salads, finest deserts and vines...
 			</div>
 		</div>
 	</div>

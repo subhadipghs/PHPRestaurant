@@ -57,11 +57,10 @@
 				border-right: none;
 				border-left: none;
 				border-top: none;
-				font-weight: bolder;
 				margin: 20px 0px;
 				width: 80%;
 				padding: 10px;
-				font-size: 17px;
+				font-size: 1em;
 				background-color: #212121;
 			}
 			input:focus {
@@ -71,18 +70,19 @@
 			.header {
 				font-family: 'Playfair Display', serif;
 				text-align: center;
-				margin-top: 30vh;
+				margin-top: 10vh;
+				/*margin-bottom: -10vh;*/
 				color: white;
 				font-size: 3.5em;
 				font-weight: bold;
 				letter-spacing: 2px;
 			}
 			#name {
-				margin-top: 10vh;
+				margin-top: 5vh;
 			}
 			.submit {
 				font-style: normal;
-				margin-top: 4vh;
+				margin-top: 2vh;
 				font-family: 'Playfair Display';
 				color: white;
 				background-color: firebrick;
@@ -182,12 +182,12 @@
 				<div class="header-line1">
 					Hey, Buddy 🖐
 				</div>
-				<form action="" method="POST" name="register" class="form" onsubmit="onsubmit()">
+				<form action="" method="POST" name="register" class="form" onsubmit="onsubmit()" autocomplete="off">
 					<input type="text" name="name" id="name" class="input-style" placeholder="Name">
 					<input type="text" name="email" id="email" class="input-style" placeholder="Email">
 					<input type="text" name="address" id="address" class="input-style" placeholder="Address">
 					<input type="text" name="mobile_no" id="mobile_no" class="input-style" placeholder="Mobile No.">
-					<input type="text" onchange="change(e)" name="password" id="password" class="input-style" placeholder="Password">
+					<input type="password" onchange="change(e)" name="password" id="password" class="input-style" placeholder="Password">
 					<input type="password" name="confirm_password" id="confirm-password" class="input-style" placeholder="Confirm Password">
 					<input type="submit" name="submit" class="submit" value="Submit 🍔">
 				</form>
@@ -197,25 +197,6 @@
 						require('backend/register.php');
 					}
 				?>
-				<script type="text/javascript">
-					
-					var FormUI = function(form) {
-						this.form = document.forms[form];
-					}
-
-					FormUI.prototype.findFormInput = function(arg) {
-						return !this.form[arg] ? '' : this.form[arg].value;
-					}
-
-					FormUI.prototype.getForm = function() {
-						return this.form;
-					}
-
-					
-
-
-
-				</script>
 				
 			</div>
 		</div>
